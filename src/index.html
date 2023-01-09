@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>CV</title>
+</head>
+<body>
+<header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+      </ul>
+    </nav>
+    <div class="toggle">
+      <div class="line_1"></div>
+      <div class="line_2"></div>
+      <div class="line_3"></div>
+    </div>
+  </div>
+</header>
+<main class="main">
+  <div class="container main-container">
+    <section class="section section-profile" id="profile">
+      <img src="assets/img/avatar.jpg" alt="avatar" class="section-profile-logo">
+      <div class="section-profile-title">
+        <h1 class="section-title main-title">Dmitry Tkachenko</h1>
+        <h3 class="section-subtitle">Junior Front-End Developer</h3>
+      </div>
+    </section>
+    <section class="section" id="contacts">
+      <h2 class="section-title">Contacts</h2>
+      <ul class="section-list">
+        <li class="section-item contacts-item">
+          Minsk, Belarus
+        </li>
+        <li class="section-item contacts-item">
+          Email: <a href="mailto:dima-tkachenko@mail.ru" title="email">dima-tkachenko@mail.ru</a>
+        </li>
+        <li class="section-item contacts-item">
+          Github: <a href="https://github.com/dima92" title="github">dima92</a>
+        </li>
+        <li class="section-item contacts-item">
+          Telegram: <a href="https://t.me/dotnetdeveloper92" title="telegram">@dotnetdeveloper92</a>
+        </li>
+        <li class="section-item contacts-item">
+          Discord: <a href="https://discordapp.com/users/807642751180734464" title="discord">Дмитрий Ткаченко#6100</a>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="summary">
+      <h2 class="section-title">Summary</h2>
+      <p> I like programming. It is fascinating and interesting. I have a main job, programming is a hobby for me. I
+        have completed several training projects, and now I would like to take part in the creation of a real JavaScript
+        project. My goal is to learn a pure JavaScript at a good level and learn the React library and Angular. I will
+        be glad to
+        join the creation of open source projects. I would like to work under the guidance of an experienced developer
+        to gain practical experience.
+      </p>
+    </section>
+    <section class="section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          Web-development:<span> HTML5, CSS3, JavaScript</span>
+        </li>
+        <li class="section-item">
+          Frameworks and libraries:<span> Angular</span>
+        </li>
+        <li class="section-item">
+          Version control:<span> GIT, Github</span>
+        </li>
+        <li class="section-item">
+          Graphics:<span> Figma</span>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="code">
+      <h2 class="section-title">Code</h2>
+      <pre class="pre">
+        <code>
+        function factorial(n) {
+          if(n < 0) return null;
+          if (n <= 1) return 1;
+          return n * factorial(n-1);
+        }
+        </code>
+      </pre>
+    </section>
+    <section class="section" id="courses">
+      <h2 class="section-title">Courses</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          Freecodecamp <span> - JavaScript Algorithms and Data Structures</span>
+        </li>
+        <li class="section-item">
+          RSSchool <span> - NodeJS</span>
+        </li>
+        <li class="section-item">
+          ResultSchool <span> - HTML & CSS</span>
+        </li>
+        <li class="section-item">
+          ResultSchool <span> - Марафон 5 проектов за 5 дней</span>
+        </li>
+      </ul>
+    </section>
+    <section class="section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <ul class="section-list">
+        <li class="section-item">
+          <a href="https://rolling-scopes-school.github.io/dima92-JSFEPRESCHOOL/drum-kit/">Drum Kit</a>
+        </li>
+        <li class="section-item">
+          <a href="https://rolling-scopes-school.github.io/dima92-JSFEPRESCHOOL/museum/">Museum</a>
+        </li>
+        <li class="section-item">
+          <a href="https://rolling-scopes-school.github.io/dima92-JSFEPRESCHOOL/vertical-slider/">Vertical Slider</a>
+        </li>
+        <li class="section-item">
+          <a href="https://rolling-scopes-school.github.io/dima92-JSFEPRESCHOOL/js-clock/">JS Clock</a>
+        </li>
+      </ul>
+    </section>
+    <section class="section section-education" id="education">
+      <h2 class="section-title">Education</h2>
+      <p>Belarusian State University of Informatics and Radioelectronics</p>
+    </section>
+    <section class="section section-english" id="english">
+      <h2 class="section-title">English</h2>
+      <p>A2 - Elementary</p>
+    </section>
+  </div>
+</main>
+<footer class="footer">
+  <div class="container footer-container">
+    <div>© 2023<a href="https://github.com/dima92" class="github nav-link">dima92</a></div>
+    <a href="https://www.datamola.com/" class="dmlogo"></a>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
